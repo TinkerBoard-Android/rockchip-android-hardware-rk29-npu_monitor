@@ -1,0 +1,3 @@
+service npu_monitor vendor/bin/npu_monitor
+    class main
+    seclabel u:r:npu_monitor:s0
