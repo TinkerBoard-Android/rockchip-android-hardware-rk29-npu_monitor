@@ -1,3 +1,4 @@
 service npu_monitor vendor/bin/npu_monitor
     class main
+    group system graphics
     seclabel u:r:npu_monitor:s0
