@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <cutils/log.h>
+#include <fcntl.h>
 
 #define LOG_TAG "RKNpuMonitor"
 
